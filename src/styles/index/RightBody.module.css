@@ -1,0 +1,137 @@
+/* src/styles/index/RightBody.module.css */
+
+@keyframes initialBlink {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  82% {
+    opacity: 0;
+  }
+  84% {
+    opacity: 1;
+  }
+  86% {
+    opacity: 0;
+  }
+  88% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 1;
+  }
+  94% {
+    opacity: 0;
+  }
+  96% {
+    opacity: 1;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.rightBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.headerLogo {
+  height: 46px;
+  margin-right: 10px;
+}
+
+.rightBody h1 {
+  font-family: 'GmarketSansBold', sans-serif;
+  color: #000;
+  font-size: 36px;
+  margin: 0;
+}
+
+.description {
+  font-family: 'GmarketSansMedium', sans-serif;
+  color: #000;
+  font-size: 46px; /* 폰트 크기 설정 */
+  margin-bottom: 40px;
+  line-height: 1.2; /* 줄 간격 설정 */
+  text-align: center;
+}
+
+.highlight {
+  color: #1574F0; /* 전력 텍스트 색상 설정 */
+  animation: initialBlink 2s; /* 깜빡임 애니메이션 설정 */
+  animation-fill-mode: forwards; /* 애니메이션이 끝난 후 상태 유지 */
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #0070f3;
+  padding: 10px 20px;
+  font-family: 'GmarketSansMedium', sans-serif;
+  font-size: 32px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0070f3;
+  color: white;
+}
+
+.button .logo {
+  height: 32px; /* 로고 이미지 높이 설정 */
+  margin-right: 8px;
+}

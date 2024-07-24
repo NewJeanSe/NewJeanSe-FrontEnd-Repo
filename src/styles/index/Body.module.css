@@ -1,0 +1,29 @@
+/* src/styles/index/Body.module.css */
+
+.body {
+  background-color: #D8E4F3; /* 바탕색 설정 */
+  padding: 20px;
+  min-height: 100vh; /* 최소 높이 설정 */
+  display: flex;
+  justify-content: center; /* 중앙 정렬 */
+  align-items: center;
+}
+
+.leftImageWrapper {
+  width: 50%; /* 너비 50%로 설정 */
+  display: flex;
+  justify-content: flex-end; /* 오른쪽 정렬 */
+  padding-right: 20px; /* 필요한 경우 오른쪽 여백을 추가하여 중앙에 더 가깝게 조정 */
+}
+
+.mapImage {
+  max-width: 80%; /* 이미지의 최대 너비를 부모 요소의 너비의 80%로 설정 */
+  height: auto; /* 높이를 자동으로 조절하여 비율 유지 */
+}
+
+.rightBodyWrapper {
+  width: 50%; /* 너비 50%로 설정 */
+  display: flex;
+  justify-content: center; /* 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+}
